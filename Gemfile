@@ -12,3 +12,6 @@ platforms :windows, :jruby do
 end
 
 gem "wdm", "~> 0.2.0", :platforms => [:windows]
+
+# my plugin
+gem 'jekyll-compose', group: [:jekyll_plugins]
